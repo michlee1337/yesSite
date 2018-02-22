@@ -1,0 +1,82 @@
+/* font */
+h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+body {
+  background-image: url('original.gif');
+  background-size: cover;
+}
+#navbar {
+  padding-top: 10px;
+}
+
+#engine {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+#engineName {
+  text-align: center;
+}
+
+#engine div {
+  margin: 0 auto;
+  width: 200px;
+  margin-left: 120px;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  font-family: Garamond;
+  font-size: 15px;
+  width: 170px;
+}
+
+a {
+  display: inline-block;
+  float: right;
+}
